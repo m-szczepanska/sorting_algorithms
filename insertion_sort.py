@@ -11,14 +11,3 @@ def insertion_sort(unsorted_arr):
                 sorted_part = sorted_part[:num_2] + [unsorted_arr[num]] + sorted_part[num_2:]
                 unsorted_arr = sorted_part + unsorted_arr[num+1:]
     return sorted_part
-
-
-
-
-print(insertion_sort([3, 1, 4, 2, 5, 8, 6]))
-
-
-
-# 3, 1, 4, 2, 5, 8, 6
-# 1, 3, 4, 2, 5, 8, 6
-# [1] + [2] + [3, 4] = [1, 2, 3, 4]

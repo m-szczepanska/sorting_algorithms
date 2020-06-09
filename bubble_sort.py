@@ -19,9 +19,3 @@ def bubble_sort(unsorted_arr):
         not_sorted = check_if_arr_is_sorted(unsorted_arr)
 
     return unsorted_arr
-
-
-
-bb = [4, 3, 6, 8, 9, 1, 4, 5]
-
-print(bubble_sort(bb))

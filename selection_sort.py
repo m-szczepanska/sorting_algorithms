@@ -12,7 +12,3 @@ def selection_sort(unsorted_arr):
                 unsorted_arr[num], unsorted_arr[local_min[1]] = unsorted_arr[local_min[1]], unsorted_arr[num]
 
     return unsorted_arr
-
-
-
-print(selection_sort([3, 1, 6, 4, 8, 12, 5, 2]))

@@ -47,7 +47,3 @@ def merge_sort(unsorted_arr):
     sorted_array = loop_merge(divided_arr)
 
     return sorted_array[0]
-
-
-unsorted_arr = [3, 1, 6, 7, 4, 2, 5, 10, 8, 22, 11, 9]
-print(merge_sort(unsorted_arr))
